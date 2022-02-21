@@ -10,6 +10,8 @@ func main() {
 		})
 	})
 
-	server.Run(":8080")
-
+	err := server.Run(":8080")
+	if err != nil {
+		return
+	}
 }

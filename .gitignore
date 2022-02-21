@@ -11,3 +11,5 @@ node_modules
 .env*
 .vscode/*
 cmd/api/__debug_bin
+__debug_bin
+
